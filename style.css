@@ -1,0 +1,413 @@
+*{
+    padding: 0%;
+    margin: 0%;
+}
+body{
+   background-color: rgb(240, 240, 150) 
+    
+    
+}
+.genesis{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 20px;
+    
+}
+.genesis img{
+    width: 5%;
+    height: 70px;
+    border-radius: 50%;
+}
+.genesis h1{
+    color: rgb(187, 72, 30);
+}
+.navbar{
+    
+}
+.list-items{
+    display: flex;
+    font-size: xx-large;
+    gap: 50px;
+    
+}
+.list-items a{
+    text-decoration: none;
+    
+}
+.list-items :hover{
+    color: white;
+    background-color: rgb(228, 188, 87);
+    border-radius: 10px 5px;
+}
+.home{
+    display: flex;
+    justify-content: space-between;
+    justify-content: center;
+    gap: 40px;
+    background-color: whitesmoke;
+    margin: 0px 55px;
+    margin-top: 100px;
+    border-radius: 25px;
+    padding-left: 20px;
+    
+
+}
+.home img{
+    height: 70vh;
+    border-radius: 15px;
+}
+.first{
+    
+}
+.first h2{
+    font-size: 28px;
+    display: flex;
+    align-content: center;
+    
+}
+.first h3{
+    font-size: 28px;
+    font-style: italic; 
+    color:rgb(236, 170, 3);
+    
+}
+.first p{
+    font-size: 23px;
+    margin-top: 50px;
+    
+    
+   
+}
+.click{
+    margin-top: 30px;
+    font-size: 20px;
+    background-color: rgb(230, 192, 98);
+    width: 180px;
+    height: 7vh;
+    border-radius: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.click a{
+    text-decoration: none; 
+    color: whitesmoke;
+}
+.about{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 30px;
+}
+.exodus{
+    display: flex;
+    justify-content: space-between;
+    
+    justify-content: center;
+    gap: 50px;
+    padding: 0px 40px;
+    background-color: whitesmoke;
+    margin: 0px 55px;
+    margin-top: 100px;
+    border-radius: 25px;
+    margin-bottom: 50px;
+}
+.exodus img{
+    margin-top: 30px;
+    height: 70vh;
+    border-radius: 10% 25%
+    
+}
+.chapter p{
+    font-size: 25px;
+    margin-top: 30px;
+
+}
+.chapter h2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration-line: underline;
+    margin-bottom: 40px;
+    
+}
+.verse{
+    font-size: 14px;
+}
+.icons{
+    display: flex;
+    gap: 20px;
+    margin-top: 20px;
+    background-color: rgba(218, 165, 32, 0.685);
+    width: 20%;
+    border-radius: 10px 5%;
+    height: 10vh;
+    align-items: center;
+    justify-content: center;
+    
+}
+.link{
+    padding: 20px;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 20%;
+    border-radius: 10px;
+    text-decoration: none;
+    color: black;
+    font-size: 18px;
+    margin-top: 30px;
+
+}
+.leviticus{
+    display: flex;
+    justify-content: space-between;
+    justify-content: center;
+    gap: 50px;
+    margin-top: 100px;
+
+}
+.services{
+    margin-top: 100px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 30px;
+    margin-bottom: 50px;
+}
+.task{
+    width: 30%;
+    height: 22vh;
+    background-color: whitesmoke;
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    box-shadow: 3px 5px gray;
+    
+}
+.contact-us{
+    background-color: whitesmoke;
+    margin: 0px 55px;
+    border-radius: 25px;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    
+}
+.contact h2{
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+    border-radius: 25px;
+    
+}
+.reach-us{
+    display: flex;
+    gap: 390px;
+    
+    margin-top: 100px;
+}
+.dial{
+    padding-left: 80px;
+    font-size: 23px;
+    
+}
+.question input{
+    width: 400%;
+    height: 12vh;
+    border-radius: 10px;
+    
+    
+}
+.submit{
+    background-color: rgb(228, 188, 87);
+    width: 140px;
+    height: 7vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 25px;
+    margin-bottom: 10px;
+    border-radius: 50px;
+}
+.submit a{
+    text-decoration: none;
+    color: whitesmoke;
+    
+}
+@media screen and (max-width: 768px) {
+    .hamburger{
+        
+}
+    .list-items{
+        font-size: larger;
+        gap: 20px;
+    }
+    .genesis img{
+        width: 4%;
+        height: 30px;
+    }
+    .genesis h1{
+        font-size: 20px;
+    }
+    .first h2{
+        font-size: 20px;
+    }
+    .first h3{
+        font-size: 25px;
+    }
+    .first p{
+        font-size: 18px;
+    }
+    .click{
+        width: 130px;
+    }
+    .home img{
+        height: 50vh;
+        width: 100%;
+    }
+    .chapter p{
+        font-size: 18px;
+    }
+    .exodus{
+        margin-bottom: 50px;
+    }
+    .exodus img{
+        margin-top: 60px;
+        height: 50vh;
+    }
+    .chapter h2{
+    
+    }
+    .icons{
+        width: 45%;
+        height: 7vh;
+        gap: 15px;
+        margin-bottom: 30px;
+    }
+    .services{
+        margin: 0px 8px;
+        gap: 15px;
+        margin-top: 100px;
+        margin-bottom: 100px;
+        
+    }
+    .task{
+        width: 44%;
+        
+        
+    }
+    .task P{
+        height: 70vh;
+    }
+    .contact-us{
+        margin-bottom: 100px;
+        padding-bottom: 30px;
+
+    }
+    .contact{
+
+    }
+    .reach-us{
+        gap: 30px;
+    }
+    .dial{
+        padding-left: 30px;
+        font-size: 17px;
+    }
+    .question input{
+        width: 200%;
+    }
+    .submit{
+       height: 5vh;
+       font-size: 18px;
+       margin-top: 10px;
+       width: 45%;
+       
+    }
+        
+    
+}
+@media screen and (max-width: 640px){
+    .about{
+
+    }
+    .exodus{
+        display: flex;
+        flex-direction: column;
+        padding: 50px;
+    }
+    .exodus img{
+        width: 67%;
+        height: 60vh;
+        
+        
+    }
+    .icons{
+        width: 35%;
+        height: 9vh;
+        gap: 15px;
+    }
+    .point{
+        font-size: 20px;
+    }
+    .reach-us{
+        display: flex;
+        flex-direction: column;
+    }
+    .question input{
+        width: 80%;
+        margin-left: 30px;
+    }
+    .submit{
+        margin-left: 30px;
+        width: 25%;
+    }
+}
+@media screen and (max-width: 425px) {
+    .home{
+        flex-direction: column;
+        
+        height: 100vh;
+        margin: 0;
+        padding: 0;
+        justify-content: center;
+        align-items: center;
+        
+        
+    }
+    .home img{
+        height: 30vh;
+    }
+    .about{
+        
+
+    }
+    .exodus{
+        
+        
+        
+    }
+    .point{
+        font-size: 12px;
+        
+    }
+
+
+
+    
+}
+   
+    
+    
+
+    
+
+    
+.footer{
+    background-color: rgb(255, 255, 255);
+    height: 400px;
+}
