@@ -5,14 +5,19 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
     <link rel="stylesheet" href="style.css" />
-    <link rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"
+    />
   </head>
   <body>
     <div>
       <div class="genesis">
-        <img src="/images/PUT IT IN.jpeg" alt="">
+        
         <header><h1>thew</h1></header>
+
+        <!-- desktop version -->
+
         <nav class="navbar">
           <ul class="list-items">
             <ul>
@@ -35,25 +40,44 @@
             </ul>
           </ul>
         </nav>
+        <img src="/images/PUT IT IN.jpeg" alt="" />
       </div>
-      
+
+      <!-- mobile version -->
+
+      <div class="hamburger" id="hamburgerMenu">
+        <i class="fas fa-bars"></i>
+      </div>
+      <ul class="mobile-menu" id="mobileMenu">
+        <li><a href="index.html">Home</a></li>
+
+        <li><a href="about.html">About Us</a></li>
+        <li><a href="services.html">Services</a></li>
+        <li><a href="">Gallery</a></li>
+        <li><a href="contact.html">Contact Us</a></li>
+        <li><a href="">FAQ</a></li>
+      </ul>
     </div>
     <section class="home">
       <div class="first">
         <h3>You got me</h3>
-        <h2>Make Your Digital Footprint Count With Our <br> Brand Experience</h2>
-        <p>Welcome to our web vision where every click, opens a new possibilities, every pixel
-          defines your presence and every <br> line of code powers your success
+        <h2>
+          Make Your Digital Footprint Count With Our <br />
+          Brand Experience
+        </h2>
+        <p>
+          Welcome to our web vision where every click, opens a new
+          possibilities, every pixel defines your presence and every <br />
+          line of code powers your success
         </p>
         <div class="click"><a href="contact.html">CONTACT Us</a></div>
       </div>
-      <div>
-        <img src="/images/HOME-IMAGE.jpeg" alt="">
+      <div class="home-image">
+        <img src="/images/HOME-IMAGE.jpeg" alt="" />
       </div>
     </section>
 
-    <footer>
-      &copy; All rights reserved thew 2026
-    </footer>
+    <footer>&copy; All rights reserved thew 2026</footer>
+    <script src="script.js"></script>
   </body>
 </html>

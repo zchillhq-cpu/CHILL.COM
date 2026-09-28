@@ -5,34 +5,63 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
     <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"
+    />
   </head>
   <body>
-    <div class="genesis">
-      <img src="/images/PUT IT IN.jpeg" alt="" />
-      <header><h1>Thew</h1></header>
-      <nav class="navbar">
-        <ul class="list-items">
-          <ul>
-            <a href="index.html">Home</a>
+    <div>
+      <div class="genesis">
+        
+        <header><h1>Thew</h1></header>
+
+        <!-- desktop version -->
+
+        <nav class="navbar">
+          <ul class="list-items">
+            <ul>
+              <a href="index.html">Home</a>
+            </ul>
+            <ul>
+              <a href="about.html">About Us</a>
+            </ul>
+            <ul>
+              <a href="services.html">Services</a>
+            </ul>
+            <ul>
+              <a href="">Gallery</a>
+            </ul>
+            <ul>
+              <a href="contact.html">Contact Us</a>
+            </ul>
+            <ul>
+              <a href="">FAQ</a>
+            </ul>
           </ul>
-          <ul>
-            <a href="about.html">About Us</a>
+        </nav>
+        <img src="/images/PUT IT IN.jpeg" alt="" />
+
+        
+      </div>
+      <!-- mobile version -->
+
+        <div>
+          <div class="hamburger" id="hamburgerMenu">
+            <i class="fas fa-bars"></i>
+          </div>
+          <ul class="mobile-menu" id="mobileMenu">
+            <li><a href="index.html">Home</a></li>
+
+            <li><a href="about.html">About Us</a></li>
+            <li><a href="services.html">Services</a></li>
+            <li><a href="">Gallery</a></li>
+            <li><a href="contact.html">Contact Us</a></li>
+            <li><a href="">FAQ</a></li>
           </ul>
-          <ul>
-            <a href="services.html">Services</a>
-          </ul>
-          <ul>
-            <a href="">Gallery</a>
-          </ul>
-          <ul>
-            <a href="contact.html">Contact Us</a>
-          </ul>
-          <ul>
-            <a href="">FAQ</a>
-          </ul>
-        </ul>
-      </nav>
+        </div>
     </div>
+
     <div>
       <section class="exodus">
         <div class="chapter">
@@ -117,10 +146,11 @@
           </div>
         </div>
 
-        <div>
+        <div class="exodus-image">
           <img src="/images/GOLDENROD.jpeg" alt="" />
         </div>
       </section>
     </div>
+    <script src="script.js"></script>
   </body>
 </html>
